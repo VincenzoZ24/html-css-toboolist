@@ -5,6 +5,7 @@
 }
 body{
     background-color: lightgray;
+    
 }
 .titolo{
     display: inline;
@@ -12,6 +13,7 @@ body{
 }
 .titolo-logo{
     height: 80px;
+    
     background-color: white;
     padding-top:10px;
 }
@@ -21,8 +23,13 @@ body{
 .container{
     width: 1000px;
     background-color:white;
-    margin-top: 30px;
+    position: relative;
+    top: 50px;
     padding: 15px;
+    margin: auto;
+    border-bottom: 2px solid lightgray;
+    
+   
    
 }
 .add-task{
@@ -41,10 +48,70 @@ body{
     border-color: lightgray;
     padding: 5px;
     border-style:groove ;
-    margin-left: 5px;
+    margin-left: 5px;   
+}
+
+.info{
+    padding-left: 15px;
     
+   
+}
+.opzioni{
+    padding-top: 50px;
     
 }
-.info{
-    padding-left: 25px;
+.fountsize-opzioni{
+    font-size: 20px;
+}
+.editional-style{
+    background-color: rgb(59, 136, 244);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.opzioni-spuntate{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.q1-goals{
+    background-color: rgb(129, 8, 129);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.recruiting-style{
+    background-color: rgb(12, 176, 40);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}
+.mobile-style{
+    background-color: rgb(228, 105, 34);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.website-style{
+    background-color: rgb(192, 38, 138);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.sales-style{
+    background-color: rgb(156, 217, 23);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+
+
 }
